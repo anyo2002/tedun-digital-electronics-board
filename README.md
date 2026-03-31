@@ -131,14 +131,14 @@ pld load fpga_trion.pld GPIO_demo.bit
 The hardware design is based on:
 
 - MangoPi (F133A reference)
-![Power Supply](../tedun-digital-electronics-board/images/F133A.png)
+![Power Supply](images/F133A.png)
 
 - LctechPi board
 
 - Trion T8 FPGA reference boards
 
 ## 🔋 Power Supply
-![RY1303](../tedun-digital-electronics-board/images/RY1303.png)
+![RY1303](images/RY1303.png)
 
 - Input: Micro-USB (5V)
 - Regulation using:
@@ -147,21 +147,21 @@ The hardware design is based on:
 
 ## Voltage Levels:
 - 3.3V → I/O, GPIO, oscillator
-![FAN2558S33X](../tedun-digital-electronics-board/images/LDO_FAN2558S33X.png)
+![FAN2558S33X](images/LDO_FAN2558S33X.png)
 - 1.8V → DRAM
-![FAN2558S18X](../tedun-digital-electronics-board/images/LDO_FAN2558S18X.png)
+![FAN2558S18X](images/LDO_FAN2558S18X.png)
 - 2.8V → Communication block (PE)
-![TPS78228DDCR](../tedun-digital-electronics-board/images/TPS78228DDCR.png)
+![TPS78228DDCR](images/TPS78228DDCR.png)
 - 1.2V → FPGA core
-![TPS73101DBVR](../tedun-digital-electronics-board/images/TPS73101DBVR.png)
+![TPS73101DBVR](images/TPS73101DBVR.png)
 - 0.9V → Processor core
-![AP7343Q-09W5-7](../tedun-digital-electronics-board/images/LDO_AP7343Q-09W5-7.png)
+![AP7343Q-09W5-7](images/LDO_AP7343Q-09W5-7.png)
 
 ## ⚡ Power Sequencing
 
 Implemented using:
 - LM3880 power sequencer
-![LM3880](../tedun-digital-electronics-board/images/LM3880_power.png)
+![LM3880](images/LM3880_power.png)
 
 Sequence: 
 1. Enable FPGA + DRAM + PE
@@ -171,12 +171,12 @@ Sequence:
 ## 💾 SD Card
 - Used for booting Tina Linux
 - Based on MangoPi reference design
-![SD F133](../tedun-digital-electronics-board/images/SD_F133.png)
+![SD F133](images/SD_F133.png)
 - Direct connection to F133A
-![SD Module](../tedun-digital-electronics-board/images/SD.png)
+![SD Module](images/SD.png)
 
 ## 🧠 F133A Connections
-![F133 Connections](../tedun-digital-electronics-board/images/F133_connections.png)
+![F133 Connections](images/F133_connections.png)
 - JTAG → PG6–PG9
 - UART0 → PE2 / PE3
 - UART → PC6 / PC7
@@ -184,7 +184,7 @@ Sequence:
 - SPI → PC2–PC7
 
 ## 🔲 FPGA (Trion T8)
-![PCB layout](../tedun-digital-electronics-board/images/FPGA_T8Q144C3.png)
+![PCB layout](images/FPGA_T8Q144C3.png)
 - 13 banks available
 - Selected banks: 1A, 3A, 3BC, 3D
 - Supports:
@@ -193,7 +193,7 @@ Sequence:
   - GPIO expansion
 
 ## 🔌 GPIO
-![GPIO](../tedun-digital-electronics-board/images/GPIO.png)
+![GPIO](images/GPIO.png)
 - 32 GPIO pins (4 banks × 8 pins)
 - Each bank includes:
   - 3.3V output
@@ -203,21 +203,21 @@ Sequence:
   - UART interface
 ## ⏱️ Oscillators
 - FPGA: 25 MHz oscillator
-![Oscillator 25MHz](../tedun-digital-electronics-board/images/Osc_25MHz.png)
+![Oscillator 25MHz](images/Osc_25MHz.png)
 - Processor: MangoPi reference oscillator
-![Oscillator F133](../tedun-digital-electronics-board/images/Osc_F133.png)
+![Oscillator F133](images/Osc_F133.png)
 ## 🧾 PCB Design
-![PCB layout](../tedun-digital-electronics-board/images/PCB_layout.png)
+![PCB layout](images/PCB_layout.png)
 Designed in KiCad:
 - Compact layout
 - Optimized routing
 - 3D visualization available
-![Top 3D](../tedun-digital-electronics-board/images/Top_3D.png)
-![Bottom 3D](../tedun-digital-electronics-board/images/Bottom_3D.png)
+![Top 3D](images/Top_3D.png)
+![Bottom 3D](images/Bottom_3D.png)
 
 ## 📍 Pinout
-![Pinout](../tedun-digital-electronics-board/images/Pinout.png)
-![Pin function](../tedun-digital-electronics-board/images/Pin_function.png)
+![Pinout](images/Pinout.png)
+![Pin function](images/Pin_function.png)
 
 - 32 GPIO pins available
 - Organized in 4 banks
