@@ -276,7 +276,7 @@ Designed in KiCad:
 - Power Electronics (LDO, sequencing)
 - Communication Protocols (UART, SPI, I2S, JTAG)
 
-##👤 Authors
+## 👤 Authors
 
 - Angel RUIZ
 - Santiago DIAZ
