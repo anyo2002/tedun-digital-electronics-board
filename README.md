@@ -138,7 +138,7 @@ The hardware design is based on:
 - Trion T8 FPGA reference boards
 
 ## 🔋 Power Supply
-![RY1303](../tedun-digital-electronics-board/images/MangoPi_power.png)
+![RY1303](../tedun-digital-electronics-board/images/RY1303.png)
 
 - Input: Micro-USB (5V)
 - Regulation using:
@@ -147,15 +147,15 @@ The hardware design is based on:
 
 ## Voltage Levels:
 - 3.3V → I/O, GPIO, oscillator
-![FAN2558S33X](../tedun-digital-electronics-board/images/LDO_power.png)
+![FAN2558S33X](../tedun-digital-electronics-board/images/LDO_FAN2558S33X.png)
 - 1.8V → DRAM
 ![FAN2558S18X](../tedun-digital-electronics-board/images/LDO_FAN2558S18X.png)
 - 2.8V → Communication block (PE)
-![FAN2558S18X](../tedun-digital-electronics-board/images/TPS78228DDCR.png)
+![TPS78228DDCR](../tedun-digital-electronics-board/images/TPS78228DDCR.png)
 - 1.2V → FPGA core
 ![TPS73101DBVR](../tedun-digital-electronics-board/images/TPS73101DBVR.png)
 - 0.9V → Processor core
-![AP7343Q-09W5-7](../tedun-digital-electronics-board/images/LDO_processor_power.png)
+![AP7343Q-09W5-7](../tedun-digital-electronics-board/images/LDO_AP7343Q-09W5-7.png)
 
 ## ⚡ Power Sequencing
 
