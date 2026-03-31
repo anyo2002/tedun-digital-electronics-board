@@ -128,12 +128,15 @@ After defining the schematics, the PCB layout was designed using **KiCad**.
 The final design includes:
 
 - Complete schematic (Files in the [Hardware](../hardware/) folder)
+
 ![Pinout](../images/Pinout.png)
 ![Pinout functions](../images/Pin_function.png)
 
 - PCB layout
+
 ![PCB layout](../images/PCB_layout.png)
 
 - 3D visualization of the board
+
 ![Top 3D](../images/Top_3D.png)
 ![Botton 3D](../images/Bottom_3D.png)
