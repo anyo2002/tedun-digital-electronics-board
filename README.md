@@ -1,3 +1,5 @@
+![Top 3D](images/Top_3D.png)
+
 # TEDUN - Digital Electronics Development Board
 
 ## 📌 Overview
